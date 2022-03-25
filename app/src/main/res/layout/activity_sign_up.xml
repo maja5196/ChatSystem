@@ -22,7 +22,7 @@
         android:layout_below="@id/logo"
         android:layout_marginTop="10dp"
         android:paddingLeft="13dp"
-        android:hint="Full name"
+        android:hint="Name"
         android:background="@drawable/edt_background"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
