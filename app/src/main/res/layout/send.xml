@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    >
 
     <TextView android:id="@+id/sendMessegeUser"
         android:layout_width="wrap_content"
@@ -9,10 +10,10 @@
         android:text="Username"
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp"
-        android:textColor="#5E6164"
+        android:textColor="@color/lightgrey"
         android:textSize="11sp"/>
 
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/RLS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,16 +23,18 @@
         android:background="@drawable/btn_background"
         >
 
-        <TextView android:id="@+id/sendMessege"
+        <TextView
+            android:id="@+id/sendMessege"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="This is a send messege"
-            android:textColor="@color/black"
             android:padding="5dp"
-            android:textSize="16sp"/>
+            android:text="This is a ksjhfksjhfjkshfkjshfjkhsjkhfksjhfjkhjsdjkfhdjksdfhsend messege"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
 
 
-    </RelativeLayout>
+    </LinearLayout>
+
 
     <TextView android:id="@+id/sendMessegeDate"
     android:layout_width="wrap_content"
@@ -39,7 +42,7 @@
     android:text="14/08/2021 13:59"
     android:layout_alignParentRight="true"
     android:layout_marginRight="10dp"
-    android:textColor="#5E6164"
+    android:textColor="@color/lightgrey"
     android:layout_below="@id/RLS"
     android:textSize="11sp"/>
 
